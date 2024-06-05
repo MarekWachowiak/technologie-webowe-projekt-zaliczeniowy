@@ -73,7 +73,7 @@ header nav ul li:first-child a {
 }
 
 .hero {
-	background-image: url('/images/laptop-bg.png');
+	background-image: url(/images/laptop-bg.png);
 	background-repeat: no-repeat;
 	background-position: left;
 	background-size: cover;
@@ -166,7 +166,7 @@ header nav ul li:first-child a {
 .about-skills {
 	height: 60%;
 	background-color: #f9f9f9;
-	background-image: url('/images/pencil-bg.png');
+	background-image: url(/images/pencil-bg.png);
 	background-position: 30%;
 	background-repeat: no-repeat;
 	background-size: cover;
