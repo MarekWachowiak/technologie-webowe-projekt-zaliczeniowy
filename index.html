@@ -1,79 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>One Page Project</title>
-		<link rel="stylesheet" href="src/css/style.css" />
-		<link
-			rel="stylesheet"
-			href="src/pe-icon-7-stroke/css/pe-icon-7-stroke.css"
-		/>
-	</head>
-	<body>
-		<main>
-			<header>
-				<a href="index.html">
-					<img src="images/logo.png" alt="Logo" />
-				</a>
-				<nav>
-					<ul>
-						<li><a href="#hero">Home</a></li>
-						<li><a href="#about">About</a></li>
-						<li><a href="#work">Work</a></li>
-						<li><a href="#process">Process</a></li>
-						<li><a href="#services">Services</a></li>
-						<li><a href="#testimonials">Testimonials</a></li>
-						<li><a href="#contact">Contact</a></li>
-					</ul>
-				</nav>
-			</header>
-			<section class="hero">
-				<div class="hero-content">
-					<h1>We Design and Develop</h1>
-					<p>
-						We are a new design studio based in USA. We have over 20 years of
-						combined experience, and know a thing or two about designing
-						websites and mobile apps.
-					</p>
-					<button>Contact us</button>
-				</div>
-			</section>
-			<section class="about">
-				<div class="about-description">
-					<h2>About Us</h2>
-					<p>
-						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt
-						distinctio quasi aut, tempora iste quibusdam saepe esse sint,
-						commodi accusamus reiciendis, velit ad totam minus molestiae ratione
-						dolorem nemo maxime.
-					</p>
-					<img src="images/signature.png" alt="Image of a signature" />
-				</div>
-				<div class="about-skills">
-					<h2>Professional skills</h2>
-					<div class="skill-bars-container">
-						<div class="skill-bar">
-							<label for="design">UI/UX Design <span>75%</span></label>
-							<meter id="design" value="75" min="0" max="100">75%</meter>
-						</div>
-						<div class="skill-bar">
-							<label for="development">Web Development <span>90%</span></label>
-							<meter id="development" value="90" min="0" max="100">90%</meter>
-						</div>
-						<div class="skill-bar">
-							<label for="marketing">Marketing <span>65%</span></label>
-							<meter id="marketing" value="65" min="0" max="100">65%</meter>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="work"></section>
-			<section class="process"></section>
-			<section class="services"></section>
-			<section class="testimonials"></section>
-			<section class="contact"></section>
-			<footer></footer>
-		</main>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>One Page Project</title>
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="src/pe-icon-7-stroke/css/pe-icon-7-stroke.css"
+    />
+  </head>
+  <body>
+    <main>
+      <header>
+        <a href="index.html">
+          <img src="images/logo.png" alt="Logo" />
+        </a>
+        <nav>
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#process">Process</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section id="hero" class="hero">
+        <div class="hero-content">
+          <h1>We Design and Develop</h1>
+          <p>
+            We are a new design studio based in USA. We have over 20 years of
+            combined experience, and know a thing or two about designing
+            websites and mobile apps.
+          </p>
+          <button><a href="#contact">Contact us</a></button>
+        </div>
+      </section>
+      <section id="about" class="about">
+        <div class="about-description">
+          <h2>About Us</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt
+            distinctio quasi aut, tempora iste quibusdam saepe esse sint,
+            commodi accusamus reiciendis, velit ad totam minus molestiae ratione
+            dolorem nemo maxime.
+          </p>
+          <img src="images/signature.png" alt="Image of a signature" />
+        </div>
+        <div class="about-skills">
+          <h2>Professional skills</h2>
+          <div class="skill-bars-container">
+            <div class="skill-bar-container">
+              <label for="design">UI/UX Design <span>75%</span></label>
+              <div class="design-bar skill-bar">
+                <div class="bar-fill"></div>
+              </div>
+            </div>
+            <div class="skill-bar-container">
+              <label for="development">Web Development <span>90%</span></label>
+              <div class="development-bar skill-bar">
+                <div class="bar-fill"></div>
+              </div>
+            </div>
+            <div class="skill-bar-container">
+              <label for="marketing">Marketing <span>65%</span></label>
+              <div class="marketing-bar skill-bar">
+                <div class="bar-fill"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="work" class="work"></section>
+      <section id="process" class="process"></section>
+      <section id="services" class="services"></section>
+      <section id="testimonials" class="testimonials"></section>
+      <section id="contact" class="contact"></section>
+      <footer></footer>
+    </main>
+  </body>
 </html>
