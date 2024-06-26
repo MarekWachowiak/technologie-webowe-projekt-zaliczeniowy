@@ -349,28 +349,28 @@ header nav ul li:first-child a {
   scale: 1.02;
 }
 .grid-image:nth-child(1) {
-  background-image: url(/images/grid-photos/grid-1.png);
+  background-image: url(../../images/grid-photos/grid-1.png);
 } 
 .grid-image:nth-child(2) {
-  background-image: url(/images/grid-photos/grid-2.png);
+  background-image: url(../../images/grid-photos/grid-2.png);
 } 
 .grid-image:nth-child(3) {
-  background-image: url(/images/grid-photos/grid-3.png);
+  background-image: url(../../images/grid-photos/grid-3.png);
 } 
 .grid-image:nth-child(4) {
-  background-image: url(/images/grid-photos/grid-4.png);
+  background-image: url(../../images/grid-photos/grid-4.png);
 } 
 .grid-image:nth-child(5) {
-  background-image: url(/images/grid-photos/grid-5.png);
+  background-image: url(../../images/grid-photos/grid-5.png);
 } 
 .grid-image:nth-child(6) {
-  background-image: url(/images/grid-photos/grid-6.png);
+  background-image: url(../../images/grid-photos/grid-6.png);
 } 
 .grid-image:nth-child(7) {
-  background-image: url(/images/grid-photos/grid-7.png);
+  background-image: url(../../images/grid-photos/grid-7.png);
 } 
 .grid-image:nth-child(8) {
-  background-image: url(/images/grid-photos/grid-8.png);
+  background-image: url(../../images/grid-photos/grid-8.png);
 } 
 
 .load-more-work {
