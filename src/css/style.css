@@ -217,9 +217,7 @@ header nav ul li:first-child a {
   border-radius: 0;
   background-color: var(--secondary-bg-color);
 }
-.skill-bar-container {
-  /* height: 1rem; */
-}
+
 .skill-bar {
   height: 3px;
   background-color: #d8d8d8;
