@@ -116,7 +116,7 @@
           <div class="grid-image"><div class="hover-effect"><i class="pe-7s-look"></i></div></div>
           <div class="grid-image"><div class="hover-effect"><i class="pe-7s-look"></i></div></div>
         </div>
-        <div class="load-more-work">Load More Work</div>
+        <div class="load-more-work"><p>Load More Work</p></div>
       </section>
       <section id="process" class="process"></section>
       <section id="services" class="services"></section>
@@ -125,4 +125,17 @@
       <footer></footer>
     </main>
   </body>
+  <script>
+    const workGridImages = document.querySelectorAll('.grid-image');
+    workGridImages.forEach(image => {
+      image.addEventListener('touchstart', () => {
+        image.getElementsByClassName('hover-effect')[0].style = "opacity: 0.85";
+        image.style = "scale: 1.05; rotate: 2deg"
+      })
+      image.addEventListener('touchend', () => {
+        image.getElementsByClassName('hover-effect')[0].style = "opacity: 0";
+        image.style = ""
+      })
+    })
+  </script>
 </html>
