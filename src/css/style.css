@@ -269,6 +269,14 @@ header nav ul li:first-child a {
   gap: 1rem;
 }
 
+.stat-container:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+
+.stat-container:nth-child(2n) .stat-count {
+  text-align: right;
+}
+
 .stat-icon {
   display: flex;
   align-items: center;
