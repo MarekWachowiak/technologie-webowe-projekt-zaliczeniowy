@@ -239,3 +239,56 @@ header nav ul li:first-child a {
 .marketing-bar .bar-fill {
   width: 65%;
 }
+
+.work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  text-transform: uppercase;
+  font-family: var(--head-font);
+  color: white;
+  background-color: var(--secondary-bg-color);
+  width: 100%;
+  padding: 4rem 0;
+}
+
+.stat-container {
+  text-align: left;
+  padding: 0 2rem;
+  width: 80%;
+  display: flex;
+  gap: 1rem;
+}
+
+.stat-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stat-icon::before {
+  vertical-align: -50%;
+  font-size: 2.5rem;
+}
+
+.stat-count, .stat-name {
+  letter-spacing: 1px;
+}
+
+.stat-count {
+  font-weight: 700;
+}
+
+.stat-name {
+  font-size: 0.75rem;
+  font-weight: 600;
+}
