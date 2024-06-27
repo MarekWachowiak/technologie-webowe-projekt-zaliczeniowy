@@ -118,7 +118,21 @@
         </div>
         <div class="load-more-work"><p>Load More Work</p></div>
       </section>
-      <section id="process" class="process"></section>
+      <section id="process" class="process">
+        <div class="process-content">
+          <h3 class="process-caption">Our Work Process</h3>
+          <p class="process-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quia sequi beatae nostrum suscipit incidunt!</p>
+          <div class="process-video-container">
+            <video class="process-video">
+              <source src="video/video.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <div class="play-button">
+              <i class="pe-7s-play"></i>
+            </div>
+          </div>
+        </div>
+      </section>
       <section id="services" class="services"></section>
       <section id="testimonials" class="testimonials"></section>
       <section id="contact" class="contact"></section>
@@ -137,5 +151,12 @@
         image.style = ""
       })
     })
+    // Video controls
+    const video = document.querySelectorAll('.process-video')[0];
+    const playButton = document.querySelectorAll('.play-button')[0];
+    video.addEventListener('click', () => {
+      video.paused ? video.play() : video.pause();
+      video.paused ? playButton.style.opacity = "1" : playButton.style.opacity = "0";
+    });      
   </script>
 </html>
