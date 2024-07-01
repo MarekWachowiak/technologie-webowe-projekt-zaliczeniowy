@@ -288,7 +288,8 @@ header nav ul li:first-child a {
   font-size: 2.5rem;
 }
 
-.stat-count, .stat-name {
+.stat-count,
+.stat-name {
   letter-spacing: 1px;
 }
 
@@ -335,7 +336,8 @@ header nav ul li:first-child a {
   transition-property: opacity;
 }
 
-.grid-image, .grid-image .hover-effect {
+.grid-image,
+.grid-image .hover-effect {
   transition: 100ms;
   transition-timing-function: ease-in-out;
 }
@@ -350,28 +352,28 @@ header nav ul li:first-child a {
 }
 .grid-image:nth-child(1) {
   background-image: url(../../images/grid-photos/grid-1.png);
-} 
+}
 .grid-image:nth-child(2) {
   background-image: url(../../images/grid-photos/grid-2.png);
-} 
+}
 .grid-image:nth-child(3) {
   background-image: url(../../images/grid-photos/grid-3.png);
-} 
+}
 .grid-image:nth-child(4) {
   background-image: url(../../images/grid-photos/grid-4.png);
-} 
+}
 .grid-image:nth-child(5) {
   background-image: url(../../images/grid-photos/grid-5.png);
-} 
+}
 .grid-image:nth-child(6) {
   background-image: url(../../images/grid-photos/grid-6.png);
-} 
+}
 .grid-image:nth-child(7) {
   background-image: url(../../images/grid-photos/grid-7.png);
-} 
+}
 .grid-image:nth-child(8) {
   background-image: url(../../images/grid-photos/grid-8.png);
-} 
+}
 
 .load-more-work {
   height: 5rem;
@@ -390,4 +392,61 @@ header nav ul li:first-child a {
 .load-more-work:hover {
   cursor: pointer;
   color: #555;
+}
+
+.process {
+  width: 100%;
+}
+
+.process-content {
+  padding: 3rem;
+  gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.process-caption {
+  font-size: 150%;
+  font-family: var(--head-font);
+  color: var(--head-font-color);
+}
+
+.process-description {
+  font-family: var(--text-font);
+  color: var(--text-font-color);
+  font-size: 0.85rem;
+  line-height: 20px;
+  max-width: 30rem;
+  text-align: center;
+}
+
+.process-video-container {
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+
+.process-video {
+  border-radius: 0.25rem;
+  background-color: black;
+  width: 100%;
+}
+
+.play-button {
+  background-color: var(--secondary-bg-color);
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  position: absolute;
+}
+
+.play-button i::before {
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+  margin-left: 7%;
 }
