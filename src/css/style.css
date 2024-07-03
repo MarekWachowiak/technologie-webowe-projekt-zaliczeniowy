@@ -410,6 +410,7 @@ header nav ul li:first-child a {
 .process-caption {
   font-size: 150%;
   font-family: var(--head-font);
+  text-align: center;
   color: var(--head-font-color);
 }
 
@@ -449,4 +450,53 @@ header nav ul li:first-child a {
   color: white;
   font-weight: bold;
   margin-left: 7%;
+}
+
+.services {
+  display: grid;
+  place-items: center;
+  background-color: var(--lead-bg-color);
+  padding: 4rem 1rem;
+}
+
+.service-tiles-container {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  gap: 5rem;
+  width: 100%;
+}
+
+.service-tile {
+  width: 75%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.service-tile-icon {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #656565;
+}
+
+.service-tile-title {
+  font-family: var(--head-font);
+  color: var(--head-font-color);
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.service-tile-description {
+  font-family: var(--text-font);
+  color: var(--text-font-color);
+  font-size: 1rem;
+  line-height: 20px;
+  max-width: 20rem;
 }
