@@ -588,6 +588,7 @@ header nav ul li:first-child a {
   width: 10rem;
   height: 7rem;
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
