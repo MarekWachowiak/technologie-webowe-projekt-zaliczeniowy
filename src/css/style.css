@@ -686,3 +686,68 @@ header nav ul li:first-child a {
   resize: none;
   height: 9rem;
 }
+
+footer {
+  background-color: var(--dark-bg-color);
+  color: #bcbcbc;
+  font-family: var(--text-font);
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 3rem;
+  gap: 3rem;
+}
+
+.copyright-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.copyright-block h3 {
+  color: white;
+  font-family: var(--head-font);
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.copyright-block p {
+  max-width: 75%;
+}
+
+.contact-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.pages-block .columns-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.pages-block .columns-container .column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.social-media-block {
+  width: 100%;
+}
+
+.social-media-block .column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
