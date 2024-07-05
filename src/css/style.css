@@ -443,6 +443,10 @@ header nav ul li:first-child a {
   width: 100%;
 }
 
+.process-video:hover {
+  cursor: pointer;
+}
+
 .play-button {
   background-color: var(--secondary-bg-color);
   width: 3rem;
@@ -507,4 +511,102 @@ header nav ul li:first-child a {
   font-size: 1rem;
   line-height: 20px;
   max-width: 20rem;
+}
+
+.testimonials-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonials-quotes-container {
+  min-height: 30rem;
+  padding: 4rem 2rem;
+  background-color: var(--secondary-bg-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  position: relative;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  color: white;
+  text-align: center;
+  font-family: var(--head-font);
+  font-weight: 600;
+}
+
+.quote-content {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  max-width: 30rem;
+}
+
+.quote-author {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.75rem;
+}
+
+.quote-slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  position: absolute;
+  bottom: 2rem;
+}
+
+.bulletpoint {
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 50%;
+  background-color: #b0e8e6;
+}
+
+.bulletpoint:nth-child(2) {
+  background-color: white;
+  width: 0.6rem;
+  height: 0.6rem;
+}
+
+.testimonials-partners-container {
+  padding: 3rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.partner {
+  width: 10rem;
+  height: 7rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.partner:hover {
+  cursor: pointer;
+}
+
+.partner:nth-child(1) {
+  background-image: url(../../images/partners/partner-1.png);
+}
+.partner:nth-child(2) {
+  background-image: url(../../images/partners/partner-2.png);
+}
+.partner:nth-child(3) {
+  background-image: url(../../images/partners/partner-3.png);
+}
+.partner:nth-child(4) {
+  background-image: url(../../images/partners/partner-4.png);
+}
+.partner:nth-child(5) {
+  background-image: url(../../images/partners/partner-5.png);
 }
