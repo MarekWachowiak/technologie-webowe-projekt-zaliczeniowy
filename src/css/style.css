@@ -610,3 +610,78 @@ header nav ul li:first-child a {
 .partner:nth-child(5) {
   background-image: url(../../images/partners/partner-5.png);
 }
+
+.contact {
+  background-color: var(--lead-bg-color);
+}
+
+.contact-container {
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.contact-caption {
+  font-family: var(--head-font);
+  color: #1d1d1d;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.contact-description {
+  font-family: var(--text-font);
+  color: var(--text-font-color);
+  font-weight: 400;
+  text-align: center;
+  max-width: 25rem;
+  line-height: 1.5rem;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  max-width: 25rem;
+  width: 75%;
+}
+
+.form-element {
+  border: none;
+  padding: 0.5rem;
+  border-radius: 0;
+  height: 3rem;
+}
+
+.form-button {
+  background-color: var(--secondary-bg-color);
+  font-family: var(--head-font);
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 0.7rem;
+  width: 75%;
+  max-width: 10rem;
+}
+
+.form-name,
+.form-email,
+.form-title,
+.form-comment {
+  width: 100%;
+  font-size: 0.75rem;
+  font-family: var(--text-font);
+  color: var(--text-font-color);
+  padding: 1rem;
+}
+
+.form-comment {
+  resize: none;
+  height: 9rem;
+}

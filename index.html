@@ -246,36 +246,32 @@
             Let us know what you're looking for in an agency. We'll take a look
             and see if this could be the start of something beautiful.
           </p>
-          <form id="contact-form" onsubmit="return false">
-            <div class="form-group form-name">
-              <input type="text" name="name" required placeholder="Your Name" />
-            </div>
-            <div class="form-group form-email">
-              <input
-                type="email"
-                name="email"
-                required
-                placeholder="Your Email"
-              />
-            </div>
-            <div class="form-group form-title">
-              <input
-                type="text"
-                name="title"
-                required
-                placeholder="Your Title"
-              />
-            </div>
-            <div class="form-group form-comment">
-              <textarea
-                name="comment"
-                required
-                placeholder="Your Comment"
-              ></textarea>
-            </div>
-            <div class="form-group form-button">
-              <button type="submit">Send Message</button>
-            </div>
+          <form class="contact-form" onsubmit="return false">
+            <input
+              class="form-element form-name"
+              type="text"
+              name="name"
+              required
+              placeholder="Your Name"
+            />
+            <input
+              class="form-element form-email"
+              type="email"
+              name="email"
+              required
+              placeholder="Your Email"
+            />
+            <input class="form-element form-title"" type="text" name="title"
+            required placeholder="Your Title" />
+            <textarea
+              class="form-element form-comment"
+              name="comment"
+              required
+              placeholder="Your Comment"
+            ></textarea>
+            <button class="form-element form-button" type="submit">
+              Send Message
+            </button>
           </form>
         </div>
       </section>
