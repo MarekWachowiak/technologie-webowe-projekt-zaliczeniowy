@@ -89,7 +89,7 @@ header nav ul li:first-child a {
   min-height: 35rem;
   display: flex;
   align-items: flex-end;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .hero .hero-content {
@@ -99,22 +99,22 @@ header nav ul li:first-child a {
   height: 25rem;
   gap: 1.5rem;
   padding: 5rem 2rem;
+  max-width: 20rem;
 }
 
 .hero .hero-content h1 {
   font-family: var(--head-font);
   color: var(--head-font-color);
   font-weight: 600;
-  font-size: 1.25rem;
+  font-size: 1.3rem;
 }
 
 .hero .hero-content p {
   font-family: var(--text-font);
   color: var(--text-font-color);
   line-height: 1.25rem;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   text-shadow: 1px 1px 3px #ffff;
-  max-width: 60%;
 }
 
 .hero .hero-content button {
@@ -741,13 +741,57 @@ footer {
   gap: 0.5rem;
 }
 
-.social-media-block {
-  width: 100%;
-}
-
 .social-media-block .column {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 0.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .work-image-grid {
+    height: 200vw;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  .hero {
+    justify-content: flex-end;
+    padding-bottom: 4rem;
+  }
+
+  .hero .hero-content h1 {
+    font-size: 1.7rem;
+  }
+
+  .skill-bars-container {
+    width: 50%;
+  }
+
+  .stats {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .stat-container {
+    width: 40%;
+  }
+
+  .services {
+    padding: 5rem 3rem;
+  }
+  .service-tiles-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  .testimonials-partners-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .footer-content {
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 4rem 2rem;
+  }
 }
